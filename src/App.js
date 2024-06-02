@@ -22,7 +22,9 @@ function App() {
   const LoadingScreen = () => {
     return (
       <div className="loading-screen">
-        <div className="loading-spinner"></div>
+        <div className="loading-spinner">
+          <img src="./loading-spinner.png" width={100}/>
+        </div>
         <p>Loading...</p>
       </div>
     );
