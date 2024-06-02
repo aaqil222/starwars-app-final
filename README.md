@@ -2,7 +2,7 @@
 
 This web application has the main purpose of providing informationon characters, planets and films from Starwars
 
-## Dependencies Required
+### Dependencies Required
 
 Node.js >= 20
 

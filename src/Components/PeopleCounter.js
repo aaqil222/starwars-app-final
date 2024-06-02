@@ -28,7 +28,7 @@ function PeopleCounter(props) {
       >
         &#8249;
       </button>
-      <div>{props.count} / {totalCount.count}</div>
+      <div className="currentCount">{props.count} / {totalCount.count}</div>
       <button
         onClick={next}
         className="btn"
