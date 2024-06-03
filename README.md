@@ -34,3 +34,7 @@ Run only the front end of the application
 Run only the back end of the application
 
 `./start-backend.sh`
+
+A deployed version of the app can be found at:
+
+https://starwars-final.netlify.app/
