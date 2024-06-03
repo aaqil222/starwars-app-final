@@ -8,10 +8,8 @@ function Navbar() {
     greeting = "Morning";
   } else if (hours <= 15) {
     greeting = "Afternoon";
-  } else if (hours <= 19) {
-    greeting = "Evening";
   } else if (hours <= 24) {
-    greeting = "Night";
+    greeting = "Evening";
   } else {
     greeting = "Hello!";
   }
