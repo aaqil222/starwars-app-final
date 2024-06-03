@@ -6,6 +6,7 @@ import PeopleCounter from "./Components/PeopleCounter";
 import Planets from "./Components/Planets";
 import PlanetCounter from "./Components/PlanetCounter";
 import Films from "./Components/Films";
+
 function App() {
   const [peopleCount, setPeopleCount] = useState(1);
   const [planetCount, setPlanetCount] = useState(1);
@@ -23,7 +24,7 @@ function App() {
     return (
       <div className="loading-screen">
         <div className="loading-spinner">
-          <img src="./loading-spinner.png" width={100}/>
+          <img src="./loading-spinner.png" alt="Loading..." width={100} />
         </div>
         <p>Loading...</p>
       </div>
@@ -42,12 +43,12 @@ function App() {
     backgroundColor: "#eee",
     color: "black",
     transform: "scale(1.3)",
-    fontWeight: "bold"
+    fontWeight: "bold",
   };
 
   const unSelected = {
     backgroundColor: "#ccc",
-    color: "black"
+    color: "black",
   };
 
   return (
